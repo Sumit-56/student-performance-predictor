@@ -11,7 +11,7 @@ scaler = joblib.load('student_scaler_FINAL.pkl') # The new 6-feature scaler!
 # ==========================================
 # 2. DESIGN THE WEB APP GUI
 # ==========================================
-st.set_page_config(page_title="Student Grade Predictor", page_icon="🎓", layout="wide")
+st.set_page_config(page_title="Predictive Analytics in Education: Forecasting Student Grades via Machine Learning", page_icon="🎓", layout="wide")
 st.title("🎓 Student Performance Predictor")
 st.write("Enter the student's data below to predict their final letter grade.")
 
